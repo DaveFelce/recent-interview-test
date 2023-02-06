@@ -17,7 +17,7 @@ In the example input below, 2 strings are valid. The middle string, cdefg, is no
 
 How many strings meet the constraint in the input2.txt file provided?
 
-Answer: 
+Answer: 666
 
 2.b
 
@@ -31,4 +31,4 @@ Using the example above:
 
 How many strings meet the constraint in the input2.txt file with the modified constraint?
 
-Answer: 
+Answer: 29

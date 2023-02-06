@@ -25,3 +25,8 @@ I will use your answers as a measure of:
 - How you ensure your code is robust and working as expected
 - How is your solution in terms of being efficient/concise/general 
 - Did you get the answers right! :-)
+
+## To test
+
+- `poetry install`
+- `poetry run pytest`
