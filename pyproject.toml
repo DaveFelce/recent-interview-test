@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "certino-test"
+version = "0.1.0"
+description = ""
+authors = ["David Felce <davefelce@gmail.com>"]
+readme = "README.md"
+packages = [{include = "certino_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
