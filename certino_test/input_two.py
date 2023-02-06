@@ -18,8 +18,7 @@ def calc_valid_positions(lines: Generator) -> int:
         positions, character, sentence = line.replace(":", " ").split()
         positions: list = [int(index) for index in positions.split("-")]
         n_positions = []
-        for idx, c in enumerate(sentence):
-            idx += 1  # change zero-based index to position
+        for idx, c in enumerate(sentence, 1):
             if c == character:
                 n_positions.append(idx)
 
